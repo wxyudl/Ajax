@@ -14,7 +14,7 @@ Ajax({
     after: (...args) => {
         console.info('After 开始', args);
     }
-}).post('/').then(() => {
+}).fetch('/').then(() => {
     console.info('返回数据');
 });
 ```
