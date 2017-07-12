@@ -5,7 +5,7 @@ var Ajax = function(options = {}){
             this.afterSend = options.after || (() => {});
         }
         
-        post(...args){
+        fetch(...args){
             let _this = this;
             let p = fetch(...args);
             
@@ -16,18 +16,6 @@ var Ajax = function(options = {}){
             }); 
 
             return p;
-        }
-        
-        put(){
-        
-        }
-        
-        delete(){
-        
-        }
-        
-        get(){
-        
         }
     }
     return new Ajax;
