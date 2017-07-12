@@ -2,7 +2,7 @@
 
 ```javascript
 // Demo1: fetch post.
-// Ajax().post('/').then(function(){
+// Ajax().fetch('/').then(function(){
 //     console.info('成功');
 // });
 
